@@ -1,0 +1,136 @@
+[1/123] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
+[2/123] Performing build step for 'bootloader'
+[1/1] cd /home/nhat/esp/myGUI/build/bootloader/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[3/123] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj
+[4/123] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.obj
+[5/123] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
+[6/123] No install step for 'bootloader'
+[7/123] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/btbb_init.c.obj
+[8/123] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_clk_tree.c.obj
+[9/123] Completed 'bootloader'
+[10/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
+[11/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
+[12/123] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
+[13/123] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj
+[14/123] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping_sock.c.obj
+[15/123] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj
+[16/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj
+[17/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[18/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj
+[19/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[20/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.obj
+[21/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+[22/123] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj
+[23/123] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj
+[24/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[25/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ip101.c.obj
+[26/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_ksz80xx.c.obj
+[27/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[28/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_lan87xx.c.obj
+[29/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_802_3.c.obj
+[30/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_rtl8201.c.obj
+[31/123] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+[32/123] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj
+[33/123] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+[34/123] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+[35/123] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
+[36/123] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+[37/123] Linking C static library esp-idf/esp_http_client/libesp_http_client.a
+[38/123] Linking C static library esp-idf/tcp_transport/libtcp_transport.a
+[39/123] Linking C static library esp-idf/esp_eth/libesp_eth.a
+[40/123] Linking C static library esp-idf/esp_adc/libesp_adc.a
+[41/123] Linking C static library esp-idf/esp-tls/libesp-tls.a
+[42/123] Linking C static library esp-idf/esp_netif/libesp_netif.a
+[43/123] Linking C static library esp-idf/lwip/liblwip.a
+[44/123] Linking C static library esp-idf/esp_phy/libesp_phy.a
+[45/123] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[46/123] Linking C static library esp-idf/esp_system/libesp_system.a
+[47/123] Linking C static library esp-idf/esp_mm/libesp_mm.a
+[48/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio_glitch_filter_ops.c.obj
+[49/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac/dac_oneshot.c.obj
+[50/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac/dac_common.c.obj
+[51/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac/esp32/dac_dma.c.obj
+[52/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj
+[53/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/spi_bus_lock.c.obj
+[54/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac/dac_cosine.c.obj
+[55/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/rtc_io.c.obj
+[56/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj
+[57/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer/gptimer_priv.c.obj
+[58/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/dac_common_legacy.c.obj
+[59/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac/dac_continuous.c.obj
+[60/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio.c.obj
+[61/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_common.c.obj
+[62/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_std.c.obj
+[63/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gptimer/gptimer.c.obj
+[64/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj
+[65/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cmpr.c.obj
+[66/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_fault.c.obj
+[67/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_sync.c.obj
+[68/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_pdm.c.obj
+[69/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_com.c.obj
+[70/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cap.c.obj
+[71/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj
+[72/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/ledc/ledc.c.obj
+[73/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_gen.c.obj
+[74/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj
+[75/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_encoder.c.obj
+[76/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_timer.c.obj
+[77/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_oper.c.obj
+[78/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_common.c.obj
+[79/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj
+[80/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sigma_delta/sdm.c.obj
+[81/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/pcnt/pulse_cnt.c.obj
+[82/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_tx.c.obj
+[83/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_rx.c.obj
+[84/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
+[85/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_host.c.obj
+[86/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[87/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_common.c.obj
+[88/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj
+[89/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
+[90/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
+[91/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_slave.c.obj
+[92/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[93/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[94/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
+[95/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[96/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[97/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_master.c.obj
+[98/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+[99/123] Building C object esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/esp_lcd_touch.c.obj
+[100/123] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[101/123] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[102/123] Building C object esp-idf/espressif__esp_lcd_ili9341/CMakeFiles/__idf_espressif__esp_lcd_ili9341.dir/esp_lcd_ili9341.c.obj
+[103/123] Building C object esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/esp_lcd_touch_gt911.c.obj
+[104/123] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+/home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1.2\" -DLV_CONF_INCLUDE_SIMPLE -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/nhat/esp/myGUI/build/config -I/home/nhat/esp/myGUI/main -I/home/nhat/esp/esp-idf/components/newlib/platform_include -I/home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/include -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include -I/home/nhat/esp/esp-idf/components/esp_hw_support/include -I/home/nhat/esp/esp-idf/components/esp_hw_support/include/soc -I/home/nhat/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/nhat/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/nhat/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/nhat/esp/esp-idf/components/heap/include -I/home/nhat/esp/esp-idf/components/log/include -I/home/nhat/esp/esp-idf/components/soc/include -I/home/nhat/esp/esp-idf/components/soc/esp32 -I/home/nhat/esp/esp-idf/components/soc/esp32/include -I/home/nhat/esp/esp-idf/components/hal/esp32/include -I/home/nhat/esp/esp-idf/components/hal/include -I/home/nhat/esp/esp-idf/components/hal/platform_port/include -I/home/nhat/esp/esp-idf/components/esp_rom/include -I/home/nhat/esp/esp-idf/components/esp_rom/include/esp32 -I/home/nhat/esp/esp-idf/components/esp_rom/esp32 -I/home/nhat/esp/esp-idf/components/esp_common/include -I/home/nhat/esp/esp-idf/components/esp_system/include -I/home/nhat/esp/esp-idf/components/esp_system/port/soc -I/home/nhat/esp/esp-idf/components/esp_system/port/include/private -I/home/nhat/esp/esp-idf/components/xtensa/include -I/home/nhat/esp/esp-idf/components/xtensa/esp32/include -I/home/nhat/esp/esp-idf/components/lwip/include -I/home/nhat/esp/esp-idf/components/lwip/include/apps -I/home/nhat/esp/esp-idf/components/lwip/include/apps/sntp -I/home/nhat/esp/esp-idf/components/lwip/lwip/src/include -I/home/nhat/esp/esp-idf/components/lwip/port/include -I/home/nhat/esp/esp-idf/components/lwip/port/freertos/include -I/home/nhat/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/nhat/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/nhat/esp/myGUI/components/lvgl__lvgl -I/home/nhat/esp/myGUI/components/lvgl__lvgl/src -I/home/nhat/esp/myGUI/components -I/home/nhat/esp/myGUI/components/lvgl__lvgl/examples -I/home/nhat/esp/myGUI/components/lvgl__lvgl/demos -I/home/nhat/esp/esp-idf/components/esp_timer/include -I/home/nhat/esp/esp-idf/components/driver/include -I/home/nhat/esp/esp-idf/components/driver/deprecated -I/home/nhat/esp/esp-idf/components/driver/analog_comparator/include -I/home/nhat/esp/esp-idf/components/driver/dac/include -I/home/nhat/esp/esp-idf/components/driver/gpio/include -I/home/nhat/esp/esp-idf/components/driver/gptimer/include -I/home/nhat/esp/esp-idf/components/driver/i2c/include -I/home/nhat/esp/esp-idf/components/driver/i2s/include -I/home/nhat/esp/esp-idf/components/driver/ledc/include -I/home/nhat/esp/esp-idf/components/driver/mcpwm/include -I/home/nhat/esp/esp-idf/components/driver/parlio/include -I/home/nhat/esp/esp-idf/components/driver/pcnt/include -I/home/nhat/esp/esp-idf/components/driver/rmt/include -I/home/nhat/esp/esp-idf/components/driver/sdio_slave/include -I/home/nhat/esp/esp-idf/components/driver/sdmmc/include -I/home/nhat/esp/esp-idf/components/driver/sigma_delta/include -I/home/nhat/esp/esp-idf/components/driver/spi/include -I/home/nhat/esp/esp-idf/components/driver/temperature_sensor/include -I/home/nhat/esp/esp-idf/components/driver/touch_sensor/include -I/home/nhat/esp/esp-idf/components/driver/twai/include -I/home/nhat/esp/esp-idf/components/driver/uart/include -I/home/nhat/esp/esp-idf/components/driver/usb_serial_jtag/include -I/home/nhat/esp/esp-idf/components/driver/touch_sensor/esp32/include -I/home/nhat/esp/esp-idf/components/esp_pm/include -I/home/nhat/esp/esp-idf/components/esp_ringbuf/include -I/home/nhat/esp/esp-idf/components/esp_lcd/include -I/home/nhat/esp/esp-idf/components/esp_lcd/interface -I/home/nhat/esp/myGUI/components/espressif__esp_lvgl_port/include -I/home/nhat/esp/myGUI/components/espressif__esp_lcd_ili9341/include -I/home/nhat/esp/myGUI/components/espressif__esp_lcd_touch/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/nhat/esp/myGUI=. -fmacro-prefix-map=/home/nhat/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -DESP_LCD_ILI9341_VER_MAJOR=1 -DESP_LCD_ILI9341_VER_MINOR=2 -DESP_LCD_ILI9341_VER_PATCH=0 -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c /home/nhat/esp/myGUI/main/main.c
+/home/nhat/esp/myGUI/main/main.c: In function 'app_lcd_init':
+/home/nhat/esp/myGUI/main/main.c:41:38: error: 'GPIO_NUM_45' undeclared (first use in this function); did you mean 'GPIO_NUM_35'?
+   41 | #define EXAMPLE_LCD_GPIO_BL         (GPIO_NUM_45)
+      |                                      ^~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:69:33: note: in expansion of macro 'EXAMPLE_LCD_GPIO_BL'
+   69 |         .pin_bit_mask = 1ULL << EXAMPLE_LCD_GPIO_BL
+      |                                 ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:41:38: note: each undeclared identifier is reported only once for each function it appears in
+   41 | #define EXAMPLE_LCD_GPIO_BL         (GPIO_NUM_45)
+      |                                      ^~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:69:33: note: in expansion of macro 'EXAMPLE_LCD_GPIO_BL'
+   69 |         .pin_bit_mask = 1ULL << EXAMPLE_LCD_GPIO_BL
+      |                                 ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:38:38: error: 'GPIO_NUM_48' undeclared (first use in this function); did you mean 'GPIO_NUM_38'?
+   38 | #define EXAMPLE_LCD_GPIO_RST        (GPIO_NUM_48)
+      |                                      ^~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:99:27: note: in expansion of macro 'EXAMPLE_LCD_GPIO_RST'
+   99 |         .reset_gpio_num = EXAMPLE_LCD_GPIO_RST,
+      |                           ^~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c: At top level:
+/home/nhat/esp/myGUI/main/main.c:60:20: warning: 'lvgl_touch_indev' defined but not used [-Wunused-variable]
+   60 | static lv_indev_t *lvgl_touch_indev = NULL;
+      |                    ^~~~~~~~~~~~~~~~
+[105/123] Building C object esp-idf/espressif__esp_lcd_touch_tt21100/CMakeFiles/__idf_espressif__esp_lcd_touch_tt21100.dir/esp_lcd_touch_tt21100.c.obj
+[106/123] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+[107/123] Building C object esp-idf/espressif__esp_lvgl_port/CMakeFiles/__idf_espressif__esp_lvgl_port.dir/esp_lvgl_port.c.obj
+[108/123] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/uart/uart.c.obj
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/nhat/esp/myGUI/build/CMakeFiles/bootloader
+/home/nhat/esp/myGUI/build/CMakeFiles/bootloader.rule
+/home/nhat/esp/myGUI/build/CMakeFiles/bootloader-complete.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/nhat/esp/myGUI/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

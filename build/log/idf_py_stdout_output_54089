@@ -1,0 +1,112 @@
+[1/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[2/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[3/30] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+[4/30] Performing build step for 'bootloader'
+[1/1] cd /home/nhat/esp/myGUI/build/bootloader/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[5/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[6/30] No install step for 'bootloader'
+[7/30] Linking C static library esp-idf/unity/libunity.a
+[8/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+[9/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[10/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj
+[11/30] Completed 'bootloader'
+[12/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[13/30] Building C object esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/esp_lcd_touch.c.obj
+[14/30] Building C object esp-idf/espressif__esp_lcd_ili9341/CMakeFiles/__idf_espressif__esp_lcd_ili9341.dir/esp_lcd_ili9341.c.obj
+[15/30] Building C object esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/esp_lcd_touch_gt911.c.obj
+[16/30] Building C object esp-idf/espressif__esp_lcd_touch_tt21100/CMakeFiles/__idf_espressif__esp_lcd_touch_tt21100.dir/esp_lcd_touch_tt21100.c.obj
+[17/30] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+[18/30] Linking C static library esp-idf/esp_lcd/libesp_lcd.a
+[19/30] Building C object esp-idf/espressif__esp_lvgl_port/CMakeFiles/__idf_espressif__esp_lvgl_port.dir/esp_lvgl_port.c.obj
+[20/30] Linking C static library esp-idf/espressif__esp_lcd_touch/libespressif__esp_lcd_touch.a
+[21/30] Linking C static library esp-idf/espressif__esp_lcd_ili9341/libespressif__esp_lcd_ili9341.a
+[22/30] Linking C static library esp-idf/espressif__esp_lcd_touch_tt21100/libespressif__esp_lcd_touch_tt21100.a
+[23/30] Linking C static library esp-idf/espressif__esp_lcd_touch_gt911/libespressif__esp_lcd_touch_gt911.a
+[24/30] Linking C static library esp-idf/espressif__esp_lvgl_port/libespressif__esp_lvgl_port.a
+[25/30] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+/home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1.2\" -DLV_CONF_INCLUDE_SIMPLE -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/nhat/esp/myGUI/build/config -I/home/nhat/esp/myGUI/main -I/home/nhat/esp/esp-idf/components/newlib/platform_include -I/home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/include -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include -I/home/nhat/esp/esp-idf/components/esp_hw_support/include -I/home/nhat/esp/esp-idf/components/esp_hw_support/include/soc -I/home/nhat/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/nhat/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/nhat/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/nhat/esp/esp-idf/components/heap/include -I/home/nhat/esp/esp-idf/components/log/include -I/home/nhat/esp/esp-idf/components/soc/include -I/home/nhat/esp/esp-idf/components/soc/esp32 -I/home/nhat/esp/esp-idf/components/soc/esp32/include -I/home/nhat/esp/esp-idf/components/hal/esp32/include -I/home/nhat/esp/esp-idf/components/hal/include -I/home/nhat/esp/esp-idf/components/hal/platform_port/include -I/home/nhat/esp/esp-idf/components/esp_rom/include -I/home/nhat/esp/esp-idf/components/esp_rom/include/esp32 -I/home/nhat/esp/esp-idf/components/esp_rom/esp32 -I/home/nhat/esp/esp-idf/components/esp_common/include -I/home/nhat/esp/esp-idf/components/esp_system/include -I/home/nhat/esp/esp-idf/components/esp_system/port/soc -I/home/nhat/esp/esp-idf/components/esp_system/port/include/private -I/home/nhat/esp/esp-idf/components/xtensa/include -I/home/nhat/esp/esp-idf/components/xtensa/esp32/include -I/home/nhat/esp/esp-idf/components/lwip/include -I/home/nhat/esp/esp-idf/components/lwip/include/apps -I/home/nhat/esp/esp-idf/components/lwip/include/apps/sntp -I/home/nhat/esp/esp-idf/components/lwip/lwip/src/include -I/home/nhat/esp/esp-idf/components/lwip/port/include -I/home/nhat/esp/esp-idf/components/lwip/port/freertos/include -I/home/nhat/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/nhat/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/nhat/esp/myGUI/components/lvgl__lvgl -I/home/nhat/esp/myGUI/components/lvgl__lvgl/src -I/home/nhat/esp/myGUI/components -I/home/nhat/esp/myGUI/components/lvgl__lvgl/examples -I/home/nhat/esp/myGUI/components/lvgl__lvgl/demos -I/home/nhat/esp/esp-idf/components/esp_timer/include -I/home/nhat/esp/esp-idf/components/driver/include -I/home/nhat/esp/esp-idf/components/driver/deprecated -I/home/nhat/esp/esp-idf/components/driver/analog_comparator/include -I/home/nhat/esp/esp-idf/components/driver/dac/include -I/home/nhat/esp/esp-idf/components/driver/gpio/include -I/home/nhat/esp/esp-idf/components/driver/gptimer/include -I/home/nhat/esp/esp-idf/components/driver/i2c/include -I/home/nhat/esp/esp-idf/components/driver/i2s/include -I/home/nhat/esp/esp-idf/components/driver/ledc/include -I/home/nhat/esp/esp-idf/components/driver/mcpwm/include -I/home/nhat/esp/esp-idf/components/driver/parlio/include -I/home/nhat/esp/esp-idf/components/driver/pcnt/include -I/home/nhat/esp/esp-idf/components/driver/rmt/include -I/home/nhat/esp/esp-idf/components/driver/sdio_slave/include -I/home/nhat/esp/esp-idf/components/driver/sdmmc/include -I/home/nhat/esp/esp-idf/components/driver/sigma_delta/include -I/home/nhat/esp/esp-idf/components/driver/spi/include -I/home/nhat/esp/esp-idf/components/driver/temperature_sensor/include -I/home/nhat/esp/esp-idf/components/driver/touch_sensor/include -I/home/nhat/esp/esp-idf/components/driver/twai/include -I/home/nhat/esp/esp-idf/components/driver/uart/include -I/home/nhat/esp/esp-idf/components/driver/usb_serial_jtag/include -I/home/nhat/esp/esp-idf/components/driver/touch_sensor/esp32/include -I/home/nhat/esp/esp-idf/components/esp_pm/include -I/home/nhat/esp/esp-idf/components/esp_ringbuf/include -I/home/nhat/esp/esp-idf/components/esp_lcd/include -I/home/nhat/esp/esp-idf/components/esp_lcd/interface -I/home/nhat/esp/myGUI/components/espressif__esp_lvgl_port/include -I/home/nhat/esp/myGUI/components/espressif__esp_lcd_ili9341/include -I/home/nhat/esp/myGUI/components/espressif__esp_lcd_touch/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/nhat/esp/myGUI=. -fmacro-prefix-map=/home/nhat/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -DESP_LCD_ILI9341_VER_MAJOR=1 -DESP_LCD_ILI9341_VER_MINOR=2 -DESP_LCD_ILI9341_VER_PATCH=0 -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c /home/nhat/esp/myGUI/main/main.c
+/home/nhat/esp/myGUI/main/main.c: In function 'app_lcd_init':
+/home/nhat/esp/myGUI/main/main.c:104:24: error: 'EXAMPLE_LCD_GPIO_SCLK' undeclared (first use in this function)
+  104 |         .sclk_io_num = EXAMPLE_LCD_GPIO_SCLK,
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:104:24: note: each undeclared identifier is reported only once for each function it appears in
+/home/nhat/esp/myGUI/main/main.c:105:24: error: 'EXAMPLE_LCD_GPIO_MOSI' undeclared (first use in this function)
+  105 |         .mosi_io_num = EXAMPLE_LCD_GPIO_MOSI,
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:109:28: error: 'EXAMPLE_LCD_H_RES' undeclared (first use in this function)
+  109 |         .max_transfer_sz = EXAMPLE_LCD_H_RES * EXAMPLE_LCD_DRAW_BUFF_HEIGHT * sizeof(uint16_t),
+      |                            ^~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:109:48: error: 'EXAMPLE_LCD_DRAW_BUFF_HEIGHT' undeclared (first use in this function); did you mean 'LCD_DRAW_BUFF_HEIGHT'?
+  109 |         .max_transfer_sz = EXAMPLE_LCD_H_RES * EXAMPLE_LCD_DRAW_BUFF_HEIGHT * sizeof(uint16_t),
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                LCD_DRAW_BUFF_HEIGHT
+In file included from /home/nhat/esp/myGUI/main/main.c:9:
+/home/nhat/esp/myGUI/main/main.c:111:44: error: 'EXAMPLE_LCD_SPI_NUM' undeclared (first use in this function)
+  111 |     ESP_RETURN_ON_ERROR(spi_bus_initialize(EXAMPLE_LCD_SPI_NUM, &buscfg, SPI_DMA_CH_AUTO), TAG, "SPI init failed");
+      |                                            ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/esp-idf/components/esp_common/include/esp_check.h:215:30: note: in definition of macro 'ESP_RETURN_ON_ERROR'
+  215 |         esp_err_t err_rc_ = (x);                                                                \
+      |                              ^
+/home/nhat/esp/myGUI/main/main.c:115:24: error: 'EXAMPLE_LCD_GPIO_DC' undeclared (first use in this function)
+  115 |         .dc_gpio_num = EXAMPLE_LCD_GPIO_DC,
+      |                        ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:116:24: error: 'EXAMPLE_LCD_GPIO_CS' undeclared (first use in this function)
+  116 |         .cs_gpio_num = EXAMPLE_LCD_GPIO_CS,
+      |                        ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:117:20: error: 'EXAMPLE_LCD_PIXEL_CLK_HZ' undeclared (first use in this function); did you mean 'LCD_PIXEL_CLK_HZ'?
+  117 |         .pclk_hz = EXAMPLE_LCD_PIXEL_CLK_HZ,
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                    LCD_PIXEL_CLK_HZ
+/home/nhat/esp/myGUI/main/main.c:118:25: error: 'EXAMPLE_LCD_CMD_BITS' undeclared (first use in this function)
+  118 |         .lcd_cmd_bits = EXAMPLE_LCD_CMD_BITS,
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:119:27: error: 'EXAMPLE_LCD_PARAM_BITS' undeclared (first use in this function); did you mean 'LCD_PARAM_BITS'?
+  119 |         .lcd_param_bits = EXAMPLE_LCD_PARAM_BITS,
+      |                           ^~~~~~~~~~~~~~~~~~~~~~
+      |                           LCD_PARAM_BITS
+/home/nhat/esp/myGUI/main/main.c:127:27: error: 'EXAMPLE_LCD_GPIO_RST' undeclared (first use in this function)
+  127 |         .reset_gpio_num = EXAMPLE_LCD_GPIO_RST,
+      |                           ^~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:128:24: error: 'EXAMPLE_LCD_COLOR_SPACE' undeclared (first use in this function); did you mean 'LCD_COLOR_SPACE'?
+  128 |         .color_space = EXAMPLE_LCD_COLOR_SPACE,
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        LCD_COLOR_SPACE
+/home/nhat/esp/myGUI/main/main.c:129:27: error: 'EXAMPLE_LCD_BITS_PER_PIXEL' undeclared (first use in this function); did you mean 'LCD_BITS_PER_PIXEL'?
+  129 |         .bits_per_pixel = EXAMPLE_LCD_BITS_PER_PIXEL,
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                           LCD_BITS_PER_PIXEL
+/home/nhat/esp/myGUI/main/main.c: In function 'app_lvgl_init':
+/home/nhat/esp/myGUI/main/main.c:172:24: error: 'EXAMPLE_LCD_H_RES' undeclared (first use in this function)
+  172 |         .buffer_size = EXAMPLE_LCD_H_RES * EXAMPLE_LCD_DRAW_BUFF_HEIGHT * sizeof(uint16_t),
+      |                        ^~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:172:44: error: 'EXAMPLE_LCD_DRAW_BUFF_HEIGHT' undeclared (first use in this function); did you mean 'LCD_DRAW_BUFF_HEIGHT'?
+  172 |         .buffer_size = EXAMPLE_LCD_H_RES * EXAMPLE_LCD_DRAW_BUFF_HEIGHT * sizeof(uint16_t),
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            LCD_DRAW_BUFF_HEIGHT
+/home/nhat/esp/myGUI/main/main.c:173:26: error: 'EXAMPLE_LCD_DRAW_BUFF_DOUBLE' undeclared (first use in this function); did you mean 'LCD_DRAW_BUFF_DOUBLE'?
+  173 |         .double_buffer = EXAMPLE_LCD_DRAW_BUFF_DOUBLE,
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                          LCD_DRAW_BUFF_DOUBLE
+/home/nhat/esp/myGUI/main/main.c:175:17: error: 'EXAMPLE_LCD_V_RES' undeclared (first use in this function)
+  175 |         .vres = EXAMPLE_LCD_V_RES,
+      |                 ^~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c: In function 'app_main_display':
+/home/nhat/esp/myGUI/main/main.c:216:29: error: 'EXAMPLE_LCD_H_RES' undeclared (first use in this function)
+  216 |     lv_obj_set_width(label, EXAMPLE_LCD_H_RES);
+      |                             ^~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c: At top level:
+/home/nhat/esp/myGUI/main/main.c:204:13: warning: 'app_main_display' defined but not used [-Wunused-function]
+  204 | static void app_main_display(void)
+      |             ^~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:192:13: warning: '_app_button_cb' defined but not used [-Wunused-function]
+  192 | static void _app_button_cb(lv_event_t *e)
+      |             ^~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:155:18: warning: 'app_lvgl_init' defined but not used [-Wunused-function]
+  155 | static esp_err_t app_lvgl_init(void)
+      |                  ^~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:90:18: warning: 'app_lcd_init' defined but not used [-Wunused-function]
+   90 | static esp_err_t app_lcd_init(void)
+      |                  ^~~~~~~~~~~~
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,151 @@
+[1/107] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/gpio_hal_workaround.c.obj
+[2/107] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
+[3/107] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[4/107] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj
+[5/107] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[6/107] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+[7/107] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[8/107] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj
+[9/107] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
+[10/107] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_wake_stub.c.obj
+[11/107] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+[12/107] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/emac_hal.c.obj
+[13/107] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
+[14/107] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+[15/107] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
+[16/107] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj
+[17/107] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[18/107] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[19/107] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[20/107] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
+[21/107] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_802_3.c.obj
+[22/107] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
+[23/107] Linking C static library esp-idf/esp_eth/libesp_eth.a
+[24/107] Linking C static library esp-idf/esp_adc/libesp_adc.a
+[25/107] Linking C static library esp-idf/esp_wifi/libesp_wifi.a
+[26/107] Linking C static library esp-idf/esp_phy/libesp_phy.a
+[27/107] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[28/107] Performing build step for 'bootloader'
+[1/11] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj
+[2/11] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[3/11] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[4/11] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj
+[5/11] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[6/11] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[7/11] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[8/11] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[9/11] Linking C executable bootloader.elf
+[10/11] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Generated /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+[11/11] cd /home/nhat/esp/myGUI/build/bootloader/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[29/107] No install step for 'bootloader'
+[30/107] Completed 'bootloader'
+[31/107] Linking C static library esp-idf/hal/libhal.a
+[32/107] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[33/107] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[34/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio_glitch_filter_ops.c.obj
+[35/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj
+[36/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/dac_common_legacy.c.obj
+[37/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/dac/dac_common.c.obj
+[38/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj
+[39/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/rtc_io.c.obj
+[40/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_std.c.obj
+[41/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_fault.c.obj
+[42/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_pdm.c.obj
+[43/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_gen.c.obj
+[44/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2s/i2s_common.c.obj
+[45/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_sync.c.obj
+[46/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/mcpwm/mcpwm_cap.c.obj
+[47/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj
+[48/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_encoder.c.obj
+[49/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/gpio/gpio.c.obj
+[50/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/ledc/ledc.c.obj
+[51/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj
+[52/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/pcnt/pulse_cnt.c.obj
+[53/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_rx.c.obj
+[54/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_common.c.obj
+[55/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj
+[56/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_transaction.c.obj
+[57/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/rmt/rmt_tx.c.obj
+[58/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdio_slave/sdio_slave.c.obj
+[59/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
+[60/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
+[61/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
+[62/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sdmmc/sdmmc_host.c.obj
+[63/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_transaction.c.obj
+[64/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/sigma_delta/sdm.c.obj
+[65/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_common.c.obj
+[66/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj
+[67/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/sdspi/sdspi_host.c.obj
+[68/107] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj
+[69/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_slave.c.obj
+[70/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/spi/gpspi/spi_master.c.obj
+[71/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_i2s_deprecated.c.obj
+[72/107] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[73/107] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+[74/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj
+[75/107] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2c.c.obj
+[76/107] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
+[77/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
+[78/107] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[79/107] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[80/107] Linking C static library esp-idf/esp_pm/libesp_pm.a
+[81/107] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_spi.c.obj
+[82/107] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[83/107] Building C object esp-idf/esp_lcd_touch/CMakeFiles/__idf_esp_lcd_touch.dir/esp_lcd_touch.c.obj
+[84/107] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[85/107] Building C object esp-idf/esp_lcd_ili9341/CMakeFiles/__idf_esp_lcd_ili9341.dir/esp_lcd_ili9341.c.obj
+[86/107] Building C object esp-idf/esp_lcd_touch_gt911/CMakeFiles/__idf_esp_lcd_touch_gt911.dir/esp_lcd_touch_gt911.c.obj
+[87/107] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[88/107] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+/home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1.2\" -DLV_CONF_INCLUDE_SIMPLE -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DUNITY_INCLUDE_CONFIG_H -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/nhat/esp/myGUI/build/config -I/home/nhat/esp/myGUI/main -I/home/nhat/esp/esp-idf/components/newlib/platform_include -I/home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/include -I/home/nhat/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include -I/home/nhat/esp/esp-idf/components/esp_hw_support/include -I/home/nhat/esp/esp-idf/components/esp_hw_support/include/soc -I/home/nhat/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/nhat/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/nhat/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/nhat/esp/esp-idf/components/heap/include -I/home/nhat/esp/esp-idf/components/log/include -I/home/nhat/esp/esp-idf/components/soc/include -I/home/nhat/esp/esp-idf/components/soc/esp32 -I/home/nhat/esp/esp-idf/components/soc/esp32/include -I/home/nhat/esp/esp-idf/components/hal/esp32/include -I/home/nhat/esp/esp-idf/components/hal/include -I/home/nhat/esp/esp-idf/components/hal/platform_port/include -I/home/nhat/esp/esp-idf/components/esp_rom/include -I/home/nhat/esp/esp-idf/components/esp_rom/include/esp32 -I/home/nhat/esp/esp-idf/components/esp_rom/esp32 -I/home/nhat/esp/esp-idf/components/esp_common/include -I/home/nhat/esp/esp-idf/components/esp_system/include -I/home/nhat/esp/esp-idf/components/esp_system/port/soc -I/home/nhat/esp/esp-idf/components/esp_system/port/include/private -I/home/nhat/esp/esp-idf/components/xtensa/include -I/home/nhat/esp/esp-idf/components/xtensa/esp32/include -I/home/nhat/esp/esp-idf/components/lwip/include -I/home/nhat/esp/esp-idf/components/lwip/include/apps -I/home/nhat/esp/esp-idf/components/lwip/include/apps/sntp -I/home/nhat/esp/esp-idf/components/lwip/lwip/src/include -I/home/nhat/esp/esp-idf/components/lwip/port/include -I/home/nhat/esp/esp-idf/components/lwip/port/freertos/include -I/home/nhat/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/nhat/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/nhat/esp/esp-idf/components/esp_ringbuf/include -I/home/nhat/esp/esp-idf/components/efuse/include -I/home/nhat/esp/esp-idf/components/efuse/esp32/include -I/home/nhat/esp/esp-idf/components/driver/include -I/home/nhat/esp/esp-idf/components/driver/deprecated -I/home/nhat/esp/esp-idf/components/driver/analog_comparator/include -I/home/nhat/esp/esp-idf/components/driver/dac/include -I/home/nhat/esp/esp-idf/components/driver/gpio/include -I/home/nhat/esp/esp-idf/components/driver/gptimer/include -I/home/nhat/esp/esp-idf/components/driver/i2c/include -I/home/nhat/esp/esp-idf/components/driver/i2s/include -I/home/nhat/esp/esp-idf/components/driver/ledc/include -I/home/nhat/esp/esp-idf/components/driver/mcpwm/include -I/home/nhat/esp/esp-idf/components/driver/parlio/include -I/home/nhat/esp/esp-idf/components/driver/pcnt/include -I/home/nhat/esp/esp-idf/components/driver/rmt/include -I/home/nhat/esp/esp-idf/components/driver/sdio_slave/include -I/home/nhat/esp/esp-idf/components/driver/sdmmc/include -I/home/nhat/esp/esp-idf/components/driver/sigma_delta/include -I/home/nhat/esp/esp-idf/components/driver/spi/include -I/home/nhat/esp/esp-idf/components/driver/temperature_sensor/include -I/home/nhat/esp/esp-idf/components/driver/touch_sensor/include -I/home/nhat/esp/esp-idf/components/driver/twai/include -I/home/nhat/esp/esp-idf/components/driver/uart/include -I/home/nhat/esp/esp-idf/components/driver/usb_serial_jtag/include -I/home/nhat/esp/esp-idf/components/driver/touch_sensor/esp32/include -I/home/nhat/esp/esp-idf/components/esp_pm/include -I/home/nhat/esp/esp-idf/components/mbedtls/port/include -I/home/nhat/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/nhat/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/nhat/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/nhat/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -I/home/nhat/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -I/home/nhat/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -I/home/nhat/esp/esp-idf/components/esp_app_format/include -I/home/nhat/esp/esp-idf/components/bootloader_support/include -I/home/nhat/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/home/nhat/esp/esp-idf/components/esp_partition/include -I/home/nhat/esp/esp-idf/components/app_update/include -I/home/nhat/esp/esp-idf/components/esp_mm/include -I/home/nhat/esp/esp-idf/components/spi_flash/include -I/home/nhat/esp/esp-idf/components/pthread/include -I/home/nhat/esp/esp-idf/components/esp_timer/include -I/home/nhat/esp/esp-idf/components/app_trace/include -I/home/nhat/esp/esp-idf/components/esp_event/include -I/home/nhat/esp/esp-idf/components/nvs_flash/include -I/home/nhat/esp/esp-idf/components/esp_phy/include -I/home/nhat/esp/esp-idf/components/esp_phy/esp32/include -I/home/nhat/esp/esp-idf/components/vfs/include -I/home/nhat/esp/esp-idf/components/esp_netif/include -I/home/nhat/esp/esp-idf/components/wpa_supplicant/include -I/home/nhat/esp/esp-idf/components/wpa_supplicant/port/include -I/home/nhat/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/home/nhat/esp/esp-idf/components/esp_coex/include -I/home/nhat/esp/esp-idf/components/esp_wifi/include -I/home/nhat/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/home/nhat/esp/esp-idf/components/unity/include -I/home/nhat/esp/esp-idf/components/unity/unity/src -I/home/nhat/esp/esp-idf/components/cmock/CMock/src -I/home/nhat/esp/esp-idf/components/console -I/home/nhat/esp/esp-idf/components/http_parser -I/home/nhat/esp/esp-idf/components/esp-tls -I/home/nhat/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/nhat/esp/esp-idf/components/esp_adc/include -I/home/nhat/esp/esp-idf/components/esp_adc/interface -I/home/nhat/esp/esp-idf/components/esp_adc/esp32/include -I/home/nhat/esp/esp-idf/components/esp_adc/deprecated/include -I/home/nhat/esp/esp-idf/components/esp_eth/include -I/home/nhat/esp/esp-idf/components/esp_gdbstub/include -I/home/nhat/esp/esp-idf/components/esp_hid/include -I/home/nhat/esp/esp-idf/components/tcp_transport/include -I/home/nhat/esp/esp-idf/components/esp_http_client/include -I/home/nhat/esp/esp-idf/components/esp_http_server/include -I/home/nhat/esp/esp-idf/components/esp_https_ota/include -I/home/nhat/esp/esp-idf/components/esp_psram/include -I/home/nhat/esp/esp-idf/components/esp_lcd/include -I/home/nhat/esp/esp-idf/components/esp_lcd/interface -I/home/nhat/esp/esp-idf/components/protobuf-c/protobuf-c -I/home/nhat/esp/esp-idf/components/protocomm/include/common -I/home/nhat/esp/esp-idf/components/protocomm/include/security -I/home/nhat/esp/esp-idf/components/protocomm/include/transports -I/home/nhat/esp/esp-idf/components/esp_local_ctrl/include -I/home/nhat/esp/esp-idf/components/espcoredump/include -I/home/nhat/esp/esp-idf/components/espcoredump/include/port/xtensa -I/home/nhat/esp/esp-idf/components/wear_levelling/include -I/home/nhat/esp/esp-idf/components/sdmmc/include -I/home/nhat/esp/esp-idf/components/fatfs/diskio -I/home/nhat/esp/esp-idf/components/fatfs/vfs -I/home/nhat/esp/esp-idf/components/fatfs/src -I/home/nhat/esp/esp-idf/components/idf_test/include -I/home/nhat/esp/esp-idf/components/idf_test/include/esp32 -I/home/nhat/esp/esp-idf/components/ieee802154/include -I/home/nhat/esp/esp-idf/components/json/cJSON -I/home/nhat/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/nhat/esp/esp-idf/components/perfmon/include -I/home/nhat/esp/esp-idf/components/spiffs/include -I/home/nhat/esp/esp-idf/components/wifi_provisioning/include -I/home/nhat/esp/myGUI/components/esp_lcd_ili9341/include -I/home/nhat/esp/myGUI/components/esp_lcd_touch/include -I/home/nhat/esp/myGUI/components/esp_lcd_touch_gt911/include -I/home/nhat/esp/myGUI/components/esp_lcd_touch_tt21100/include -I/home/nhat/esp/myGUI/managed_components/lvgl__lvgl -I/home/nhat/esp/myGUI/managed_components/lvgl__lvgl/src -I/home/nhat/esp/myGUI/managed_components -I/home/nhat/esp/myGUI/managed_components/lvgl__lvgl/examples -I/home/nhat/esp/myGUI/managed_components/lvgl__lvgl/demos -I/home/nhat/esp/myGUI/components/esp_lvgl_port/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/nhat/esp/myGUI=. -fmacro-prefix-map=/home/nhat/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -DESP_LCD_ILI9341_VER_MAJOR=1 -DESP_LCD_ILI9341_VER_MINOR=2 -DESP_LCD_ILI9341_VER_PATCH=0 -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c /home/nhat/esp/myGUI/main/main.c
+In file included from /home/nhat/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:11,
+                 from /home/nhat/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/nhat/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:74,
+                 from /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:59,
+                 from /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:71,
+                 from /home/nhat/esp/myGUI/main/main.c:3:
+/home/nhat/esp/myGUI/main/main.c: In function 'lcd_init':
+/home/nhat/esp/myGUI/main/main.c:93:36: error: 'EXAMPLE_LCD_GPIO_BL' undeclared (first use in this function)
+   93 |     ESP_ERROR_CHECK(gpio_set_level(EXAMPLE_LCD_GPIO_BL, EXAMPLE_LCD_BL_ON_LEVEL));
+      |                                    ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/nhat/esp/myGUI/main/main.c:93:36: note: each undeclared identifier is reported only once for each function it appears in
+   93 |     ESP_ERROR_CHECK(gpio_set_level(EXAMPLE_LCD_GPIO_BL, EXAMPLE_LCD_BL_ON_LEVEL));
+      |                                    ^~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/nhat/esp/myGUI/main/main.c:93:57: error: 'EXAMPLE_LCD_BL_ON_LEVEL' undeclared (first use in this function)
+   93 |     ESP_ERROR_CHECK(gpio_set_level(EXAMPLE_LCD_GPIO_BL, EXAMPLE_LCD_BL_ON_LEVEL));
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/nhat/esp/myGUI/main/main.c:85:5: error: label 'err' used but not defined
+   85 |     ESP_GOTO_ON_ERROR(esp_lcd_new_panel_st7789(lcd_io, &panel_config, &lcd_panel), err, TAG, "New panel failed");
+      |     ^~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:46:15: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   46 |     esp_err_t ret = ESP_OK;
+      |               ^~~
+/home/nhat/esp/myGUI/main/main.c: At top level:
+/home/nhat/esp/myGUI/main/main.c:44:18: warning: 'lcd_init' defined but not used [-Wunused-function]
+   44 | static esp_err_t lcd_init(void)
+      |                  ^~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:34:31: warning: 'touch_handle' defined but not used [-Wunused-variable]
+   34 | static esp_lcd_touch_handle_t touch_handle = NULL;
+      |                               ^~~~~~~~~~~~
+[89/107] Building C object esp-idf/esp_lcd_touch_tt21100/CMakeFiles/__idf_esp_lcd_touch_tt21100.dir/esp_lcd_touch_tt21100.c.obj
+[90/107] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io_i2s.c.obj
+[91/107] Building C object esp-idf/esp_lvgl_port/CMakeFiles/__idf_esp_lvgl_port.dir/esp_lvgl_port.c.obj
+[92/107] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/uart/uart.c.obj
+ninja: build stopped: subcommand failed.

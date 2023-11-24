@@ -1,0 +1,125 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812b4: call_start_cpu1 at /home/nhat/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008191a: panic_abort at /home/nhat/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086ab9: esp_system_abort at /home/nhat/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4008caae: abort at /home/nhat/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x400d640b: app_main at /home/nhat/esp/myGUI/main/main.c:206
+[0m
+[0;33m0x40111027: main_task at /home/nhat/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008919d: vPortTaskWrapper at /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812b4: call_start_cpu1 at /home/nhat/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008191a: panic_abort at /home/nhat/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086ab9: esp_system_abort at /home/nhat/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4008caae: abort at /home/nhat/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x400d640b: app_main at /home/nhat/esp/myGUI/main/main.c:206
+[0m
+[0;33m0x40111027: main_task at /home/nhat/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008919d: vPortTaskWrapper at /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812b4: call_start_cpu1 at /home/nhat/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008191a: panic_abort at /home/nhat/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086ab9: esp_system_abort at /home/nhat/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4008caae: abort at /home/nhat/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x400d640b: app_main at /home/nhat/esp/myGUI/main/main.c:206
+[0m
+[0;33m0x40111027: main_task at /home/nhat/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008919d: vPortTaskWrapper at /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812b4: call_start_cpu1 at /home/nhat/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008191a: panic_abort at /home/nhat/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086ab9: esp_system_abort at /home/nhat/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4008caae: abort at /home/nhat/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x400d640b: app_main at /home/nhat/esp/myGUI/main/main.c:206
+[0m
+[0;33m0x40111027: main_task at /home/nhat/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008919d: vPortTaskWrapper at /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812b4: call_start_cpu1 at /home/nhat/esp/esp-idf/components/esp_system/port/cpu_start.c:157
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008191a: panic_abort at /home/nhat/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40086ab9: esp_system_abort at /home/nhat/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4008caae: abort at /home/nhat/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40086aaf: _esp_error_check_failed at /home/nhat/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d62b8: app_lcd_init at /home/nhat/esp/myGUI/main/main.c:110 (discriminator 1)
+[0m
+[0;33m0x400d640b: app_main at /home/nhat/esp/myGUI/main/main.c:206
+[0m
+[0;33m0x40111027: main_task at /home/nhat/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008919d: vPortTaskWrapper at /home/nhat/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
