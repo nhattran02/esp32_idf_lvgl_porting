@@ -25,6 +25,8 @@
 #include "lv_hal.h"
 #include "lv_disp.h"
 
+#include "ui/ui.h"
+
 /* LCD size */
 #define LCD_H_RES                   (160)
 #define LCD_V_RES                   (128)
@@ -75,21 +77,21 @@ void app_main(void)
     ESP_LOGI(TAG, "Display LVGL demo");
     lvgl_port_lock(0);
 
+    ui_init();
 
-
-    lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0xffffff), LV_STATE_DEFAULT); 
+    // lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0xffffff), LV_STATE_DEFAULT); 
     
-    // Create button
-    lv_obj_t * btn = lv_btn_create(lv_scr_act());     /*Add a button the current screen*/
-    lv_obj_set_pos(btn, 10, 10);                            /*Set its position*/
-    lv_obj_set_size(btn, 80, 30);                          /*Set its size*/
-    lv_obj_add_event_cb(btn, NULL, LV_EVENT_ALL, NULL);           /*Assign a callback to the button*/
-    lv_obj_set_style_bg_color(btn, lv_color_hex(0x0000ff), LV_PART_MAIN);
-    lv_obj_set_style_border_color(btn, lv_color_hex(0x000000), LV_PART_MAIN);
-    lv_obj_set_style_text_color(btn, lv_color_hex(0xffffff), LV_PART_MAIN);
-    lv_obj_t * label = lv_label_create(btn);          /*Add a label to the button*/
-    lv_label_set_text(label, "Button");                     /*Set the labels text*/
-    lv_obj_center(label);
+    // // Create button
+    // lv_obj_t * btn = lv_btn_create(lv_scr_act());     /*Add a button the current screen*/
+    // lv_obj_set_pos(btn, 10, 10);                            /*Set its position*/
+    // lv_obj_set_size(btn, 80, 30);                          /*Set its size*/
+    // lv_obj_add_event_cb(btn, NULL, LV_EVENT_ALL, NULL);           /*Assign a callback to the button*/
+    // lv_obj_set_style_bg_color(btn, lv_color_hex(0x0000ff), LV_PART_MAIN);
+    // lv_obj_set_style_border_color(btn, lv_color_hex(0x000000), LV_PART_MAIN);
+    // lv_obj_set_style_text_color(btn, lv_color_hex(0xffffff), LV_PART_MAIN);
+    // lv_obj_t * label = lv_label_create(btn);          /*Add a label to the button*/
+    // lv_label_set_text(label, "Button");                     /*Set the labels text*/
+    // lv_obj_center(label);
 
     lvgl_port_unlock();
 

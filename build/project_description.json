@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "main",
-    "project_version":    "1",
+    "project_version":    "a1e2d0d-dirty",
     "project_path":       "/home/nhat/esp/myGUI",
     "idf_path":           "/home/nhat/esp/esp-idf",
     "build_dir":          "/home/nhat/esp/myGUI/build",
@@ -895,8 +895,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/nhat/esp/myGUI/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/nhat/esp/myGUI/main/main.c" ],
-            "include_dirs": [ ".", "/home/nhat/esp/myGUI/components/lvgl__lvgl/src/hal/", "/home/nhat/esp/myGUI/components/lvgl__lvgl/src/core/" ]
+            "sources": [ "/home/nhat/esp/myGUI/main/main.c", "/home/nhat/esp/myGUI/main/ui/components/ui_comp_hook.c", "/home/nhat/esp/myGUI/main/ui/screens/ui_Screen1.c", "/home/nhat/esp/myGUI/main/ui/ui.c", "/home/nhat/esp/myGUI/main/ui/ui_helpers.c" ],
+            "include_dirs": [ ".", "/home/nhat/esp/myGUI/components/lvgl__lvgl/src/hal/", "/home/nhat/esp/myGUI/components/lvgl__lvgl/src/core/", "ui" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",

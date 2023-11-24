@@ -1,0 +1,126 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+Processing 2 dependencies:
+[1/2] espressif/cmake_utilities (0.5.2)
+[2/2] idf (5.1.2)
+-- Project sdkconfig file /home/nhat/esp/myGUI/sdkconfig
+-- App "main" version: a1e2d0d-dirty
+-- Adding linker script /home/nhat/esp/myGUI/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/nhat/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- ESP_LCD_ILI9341: 1.2.0
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__cmake_utilities espressif__esp_lcd_ili9341 espressif__esp_lcd_touch espressif__esp_lcd_touch_gt911 espressif__esp_lcd_touch_tt21100 espressif__esp_lvgl_port esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl__lvgl lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/nhat/esp/esp-idf/components/app_trace /home/nhat/esp/esp-idf/components/app_update /home/nhat/esp/esp-idf/components/bootloader /home/nhat/esp/esp-idf/components/bootloader_support /home/nhat/esp/esp-idf/components/bt /home/nhat/esp/esp-idf/components/cmock /home/nhat/esp/esp-idf/components/console /home/nhat/esp/esp-idf/components/cxx /home/nhat/esp/esp-idf/components/driver /home/nhat/esp/esp-idf/components/efuse /home/nhat/esp/esp-idf/components/esp-tls /home/nhat/esp/esp-idf/components/esp_adc /home/nhat/esp/esp-idf/components/esp_app_format /home/nhat/esp/esp-idf/components/esp_coex /home/nhat/esp/esp-idf/components/esp_common /home/nhat/esp/esp-idf/components/esp_eth /home/nhat/esp/esp-idf/components/esp_event /home/nhat/esp/esp-idf/components/esp_gdbstub /home/nhat/esp/esp-idf/components/esp_hid /home/nhat/esp/esp-idf/components/esp_http_client /home/nhat/esp/esp-idf/components/esp_http_server /home/nhat/esp/esp-idf/components/esp_https_ota /home/nhat/esp/esp-idf/components/esp_https_server /home/nhat/esp/esp-idf/components/esp_hw_support /home/nhat/esp/esp-idf/components/esp_lcd /home/nhat/esp/esp-idf/components/esp_local_ctrl /home/nhat/esp/esp-idf/components/esp_mm /home/nhat/esp/esp-idf/components/esp_netif /home/nhat/esp/esp-idf/components/esp_netif_stack /home/nhat/esp/esp-idf/components/esp_partition /home/nhat/esp/esp-idf/components/esp_phy /home/nhat/esp/esp-idf/components/esp_pm /home/nhat/esp/esp-idf/components/esp_psram /home/nhat/esp/esp-idf/components/esp_ringbuf /home/nhat/esp/esp-idf/components/esp_rom /home/nhat/esp/esp-idf/components/esp_system /home/nhat/esp/esp-idf/components/esp_timer /home/nhat/esp/esp-idf/components/esp_wifi /home/nhat/esp/esp-idf/components/espcoredump /home/nhat/esp/myGUI/managed_components/espressif__cmake_utilities /home/nhat/esp/myGUI/components/espressif__esp_lcd_ili9341 /home/nhat/esp/myGUI/components/espressif__esp_lcd_touch /home/nhat/esp/myGUI/components/espressif__esp_lcd_touch_gt911 /home/nhat/esp/myGUI/components/espressif__esp_lcd_touch_tt21100 /home/nhat/esp/myGUI/components/espressif__esp_lvgl_port /home/nhat/esp/esp-idf/components/esptool_py /home/nhat/esp/esp-idf/components/fatfs /home/nhat/esp/esp-idf/components/freertos /home/nhat/esp/esp-idf/components/hal /home/nhat/esp/esp-idf/components/heap /home/nhat/esp/esp-idf/components/http_parser /home/nhat/esp/esp-idf/components/idf_test /home/nhat/esp/esp-idf/components/ieee802154 /home/nhat/esp/esp-idf/components/json /home/nhat/esp/esp-idf/components/log /home/nhat/esp/myGUI/components/lvgl__lvgl /home/nhat/esp/esp-idf/components/lwip /home/nhat/esp/myGUI/main /home/nhat/esp/esp-idf/components/mbedtls /home/nhat/esp/esp-idf/components/mqtt /home/nhat/esp/esp-idf/components/newlib /home/nhat/esp/esp-idf/components/nvs_flash /home/nhat/esp/esp-idf/components/openthread /home/nhat/esp/esp-idf/components/partition_table /home/nhat/esp/esp-idf/components/perfmon /home/nhat/esp/esp-idf/components/protobuf-c /home/nhat/esp/esp-idf/components/protocomm /home/nhat/esp/esp-idf/components/pthread /home/nhat/esp/esp-idf/components/sdmmc /home/nhat/esp/esp-idf/components/soc /home/nhat/esp/esp-idf/components/spi_flash /home/nhat/esp/esp-idf/components/spiffs /home/nhat/esp/esp-idf/components/tcp_transport /home/nhat/esp/esp-idf/components/ulp /home/nhat/esp/esp-idf/components/unity /home/nhat/esp/esp-idf/components/usb /home/nhat/esp/esp-idf/components/vfs /home/nhat/esp/esp-idf/components/wear_levelling /home/nhat/esp/esp-idf/components/wifi_provisioning /home/nhat/esp/esp-idf/components/wpa_supplicant /home/nhat/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nhat/esp/myGUI/build
+[1/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/components/ui_comp_hook.c.obj
+[2/15] Performing build step for 'bootloader'
+[1/1] cd /home/nhat/esp/myGUI/build/bootloader/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[3/15] No install step for 'bootloader'
+[4/15] Completed 'bootloader'
+[5/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/screens/ui_Screen1.c.obj
+[6/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui.c.obj
+[7/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_helpers.c.obj
+[8/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/nhat/esp/myGUI/main/main.c:53: warning: "LCD_COLOR_SPACE" redefined
+   53 | #define LCD_COLOR_SPACE             (ESP_LCD_COLOR_SPACE_RGB)
+      | 
+/home/nhat/esp/myGUI/main/main.c:39: note: this is the location of the previous definition
+   39 | #define LCD_COLOR_SPACE             (ESP_LCD_COLOR_SPACE_BGR)
+      | 
+/home/nhat/esp/myGUI/main/main.c: In function 'bsp_display_new':
+/home/nhat/esp/myGUI/main/main.c:182:23: warning: initialized field overwritten [-Woverride-init]
+  182 |         .rgb_endian = LCD_RGB_ELEMENT_ORDER_RGB,
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:182:23: note: (near initialization for 'panel_config.<anonymous>.rgb_endian')
+/home/nhat/esp/myGUI/main/main.c:53:37: warning: initialized field overwritten [-Woverride-init]
+   53 | #define LCD_COLOR_SPACE             (ESP_LCD_COLOR_SPACE_RGB)
+      |                                     ^
+/home/nhat/esp/myGUI/main/main.c:185:24: note: in expansion of macro 'LCD_COLOR_SPACE'
+  185 |         .color_space = LCD_COLOR_SPACE,
+      |                        ^~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:53:37: note: (near initialization for 'panel_config.<anonymous>.color_space')
+   53 | #define LCD_COLOR_SPACE             (ESP_LCD_COLOR_SPACE_RGB)
+      |                                     ^
+/home/nhat/esp/myGUI/main/main.c:185:24: note: in expansion of macro 'LCD_COLOR_SPACE'
+  185 |         .color_space = LCD_COLOR_SPACE,
+      |                        ^~~~~~~~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c: At top level:
+/home/nhat/esp/myGUI/main/main.c:64:19: warning: 'lvgl_disp' defined but not used [-Wunused-variable]
+   64 | static lv_disp_t *lvgl_disp = NULL;
+      |                   ^~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:61:31: warning: 'lcd_panel' defined but not used [-Wunused-variable]
+   61 | static esp_lcd_panel_handle_t lcd_panel = NULL;
+      |                               ^~~~~~~~~
+/home/nhat/esp/myGUI/main/main.c:60:34: warning: 'lcd_io' defined but not used [-Wunused-variable]
+   60 | static esp_lcd_panel_io_handle_t lcd_io = NULL;
+      |                                  ^~~~~~
+[9/15] Linking C static library esp-idf/main/libmain.a
+[10/15] Generating ld/sections.ld
+[11/15] Building C object CMakeFiles/main.elf.dir/project_elf_src_esp32.c.obj
+[12/15] Linking CXX executable main.elf
+[13/15] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/nhat/esp/myGUI/build/main.bin
+[14/15] cd /home/nhat/esp/myGUI/build/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/nhat/esp/myGUI/build/partition_table/partition-table.bin /home/nhat/esp/myGUI/build/main.bin
+main.bin binary size 0x62f90 bytes. Smallest app partition is 0x100000 bytes. 0x9d070 bytes (61%) free.
+[14/15] cd /home/nhat/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/nhat/esp/esp-idf -D "SERIAL_TOOL=/home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/nhat/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/nhat/esp/myGUI/build -P /home/nhat/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 main.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev3
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:3a:f2:71:9c:74
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00072fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26640 bytes to 16681...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007692... (100 %)
+Wrote 26640 bytes (16681 compressed) at 0x00001000 in 0.9 seconds (effective 240.0 kbit/s)...
+Hash of data verified.
+Compressed 405392 bytes to 249211...
+Writing at 0x00010000... (6 %)
+Writing at 0x00018b57... (12 %)
+Writing at 0x000245dc... (18 %)
+Writing at 0x00029ea9... (25 %)
+Writing at 0x0002fc8e... (31 %)
+Writing at 0x00035655... (37 %)
+Writing at 0x0003b3c6... (43 %)
+Writing at 0x0004097b... (50 %)
+Writing at 0x00046810... (56 %)
+Writing at 0x0004c088... (62 %)
+Writing at 0x00051781... (68 %)
+Writing at 0x00057482... (75 %)
+Writing at 0x0005cce4... (81 %)
+Writing at 0x000630ae... (87 %)
+Writing at 0x00069470... (93 %)
+Writing at 0x00071b26... (100 %)
+Wrote 405392 bytes (249211 compressed) at 0x00010000 in 5.7 seconds (effective 565.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 446.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
