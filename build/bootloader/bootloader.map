@@ -4452,7 +4452,7 @@ LOAD /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp
  *(.jcr)
                 0x000000003fff0034                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x000000003fff0034     0x1ba4
+.dram0.rodata   0x000000003fff0034     0x1ba8
                 0x000000003fff0034                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x000000003fff0034        0x8 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_init.c.obj)
@@ -4550,62 +4550,62 @@ LOAD /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp
  .rodata.bootloader_enable_random.str1.1
                 0x000000003fff173a       0x3d esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.c.obj)
  .rodata.bootloader_print_banner.str1.1
-                0x000000003fff1777       0xa6 esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.c.obj)
+                0x000000003fff1777       0xac esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.c.obj)
  .rodata.rtc_clk_apll_coeff_calc.str1.1
-                0x000000003fff181d       0xc7 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.c.obj)
+                0x000000003fff1823       0xc7 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.c.obj)
  .rodata.rtc_clk_cpu_freq_get_config.str1.1
-                0x000000003fff18e4       0x3c esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.c.obj)
+                0x000000003fff18ea       0x3c esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.c.obj)
  .rodata.rtc_clk_xtal_freq_estimate.str1.1
-                0x000000003fff1920       0xe6 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.c.obj)
+                0x000000003fff1926       0xe6 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.c.obj)
  .rodata.rtc_clk_init.str1.1
-                0x000000003fff1a06       0xd6 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.c.obj)
+                0x000000003fff1a0c       0xd6 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.c.obj)
  .rodata.rtc_clk_cal_internal.str1.1
-                0x000000003fff1adc       0xa0 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
+                0x000000003fff1ae2       0xa0 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
  .rodata.rtc_clk_wait_for_slow_cycle.str1.1
-                0x000000003fff1b7c       0x34 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
+                0x000000003fff1b82       0x34 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
  .rodata.__func__$0
-                0x000000003fff1bb0       0x15 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
+                0x000000003fff1bb6       0x15 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
  *(.sdata2 .sdata2.*)
-                0x000000003fff1bc5                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003fff1bcb                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003fff1bc8                . = ((. + 0x3) & 0xfffffffffffffffc)
- *fill*         0x000000003fff1bc5        0x3 
-                0x000000003fff1bc8                __init_array_start = ABSOLUTE (.)
+                0x000000003fff1bcc                . = ((. + 0x3) & 0xfffffffffffffffc)
+ *fill*         0x000000003fff1bcb        0x1 
+                0x000000003fff1bcc                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
- .ctors         0x000000003fff1bc8        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtbegin.o
+ .ctors         0x000000003fff1bcc        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtbegin.o
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
- .ctors         0x000000003fff1bcc        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtend.o
-                0x000000003fff1bd0                __init_array_end = ABSOLUTE (.)
+ .ctors         0x000000003fff1bd0        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtend.o
+                0x000000003fff1bd4                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
- .dtors         0x000000003fff1bd0        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtbegin.o
+ .dtors         0x000000003fff1bd4        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtbegin.o
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
- .dtors         0x000000003fff1bd4        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtend.o
-                0x000000003fff1bd4                __DTOR_END__
-                0x000000003fff1bd8                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+ .dtors         0x000000003fff1bd8        0x4 /home/nhat/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/12.2.0/no-rtti/crtend.o
+                0x000000003fff1bd8                __DTOR_END__
+                0x000000003fff1bdc                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003fff1bd8                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003fff1bdc                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003fff1bd8                _rodata_end = ABSOLUTE (.)
-                0x000000003fff1bd8                _lit4_start = ABSOLUTE (.)
+                0x000000003fff1bdc                _rodata_end = ABSOLUTE (.)
+                0x000000003fff1bdc                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003fff1bd8                _lit4_end = ABSOLUTE (.)
-                0x000000003fff1bd8                . = ALIGN (0x4)
-                0x000000003fff1bd8                _dram_end = ABSOLUTE (.)
+                0x000000003fff1bdc                _lit4_end = ABSOLUTE (.)
+                0x000000003fff1bdc                . = ALIGN (0x4)
+                0x000000003fff1bdc                _dram_end = ABSOLUTE (.)
 
 .iram.text      0x0000000040080404      0xf21
                 0x0000000040080404                _stext = .

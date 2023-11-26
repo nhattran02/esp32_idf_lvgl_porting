@@ -523,7 +523,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=93
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=94
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -594,8 +594,6 @@ _Python3_EXECUTABLE:INTERNAL=/home/nhat/.espressif/python_env/idf5.1_py3.8_env/b
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;10;32;;;/usr/lib/python3.8;/usr/lib/python3.8;/home/nhat/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages;/home/nhat/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=fbd2fe1e40121014d3d2ab0d0e25fe05
-//Interpreter reason failure
-_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

@@ -12,9 +12,9 @@
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 lv_obj_t *ui_Screen1;
-lv_obj_t *ui_Button1;
-lv_obj_t *ui_Label2;
-lv_obj_t *ui_Switch1;
+lv_obj_t *ui_Label3;
+lv_obj_t *ui_Image4;
+lv_obj_t *ui_Arc1;
 lv_obj_t *ui____initial_actions0;
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
@@ -34,7 +34,7 @@ lv_obj_t *ui____initial_actions0;
 void ui_init( void )
 {
 lv_disp_t *dispp = lv_disp_get_default();
-lv_theme_t *theme = lv_theme_default_init(dispp, lv_color_hex(0x0000ff), lv_color_hex(0xff0000), false, LV_FONT_DEFAULT);
+lv_theme_t *theme = lv_theme_default_init(dispp, lv_palette_main(LV_PALETTE_BLUE), lv_palette_main(LV_PALETTE_RED), false, LV_FONT_DEFAULT);
 lv_disp_set_theme(dispp, theme);
 ui_Screen1_screen_init();
 ui____initial_actions0 = lv_obj_create(NULL);

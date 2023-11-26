@@ -26,6 +26,7 @@
 #include "lv_disp.h"
 
 #include "ui/ui.h"
+#include "iot_button.h"
 
 /* LCD size */
 #define LCD_H_RES                   (160)
@@ -56,17 +57,46 @@
 
 static const char *TAG = "EXAMPLE";
 
+/* Buttons */
+typedef enum {
+    BSP_BUTTON_PREV,
+    BSP_BUTTON_ENTER,
+    BSP_BUTTON_NEXT,
+    BSP_BUTTON_NUM
+} bsp_button_t;
+
 /* LCD IO and panel */
 static esp_lcd_panel_io_handle_t lcd_io = NULL;
 static esp_lcd_panel_handle_t lcd_panel = NULL;
 
 /* LVGL display and touch */
 static lv_disp_t *lvgl_disp = NULL;
-
+static lv_indev_t *disp_indev = NULL;
 
 lv_disp_t *bsp_display_start_with_config(const lvgl_port_cfg_t *lvgl_port_cfg);
 static lv_disp_t *bsp_display_lcd_init(void);
+static lv_indev_t *bsp_display_indev_init(lv_disp_t *disp);
 esp_err_t bsp_display_new(int max_transfer_sz, esp_lcd_panel_handle_t *ret_panel, esp_lcd_panel_io_handle_t *ret_io);
+uint8_t reverseBitsWithNot(uint8_t value);
+void convertEachElement(uint8_t* dataArray, int dataSize);
+
+static const button_config_t bsp_button_config[BSP_BUTTON_NUM] = {
+    {
+        .type = BUTTON_TYPE_GPIO,
+        .gpio_button_config.active_level = false,
+        .gpio_button_config.gpio_num = GPIO_NUM_0,
+    },
+    {
+        .type = BUTTON_TYPE_GPIO,
+        .gpio_button_config.active_level = false,
+        .gpio_button_config.gpio_num = GPIO_NUM_1,        
+    },
+    {
+        .type = BUTTON_TYPE_GPIO,
+        .gpio_button_config.active_level = false,
+        .gpio_button_config.gpio_num = GPIO_NUM_2,
+    },
+};
 
 
 void app_main(void)
@@ -77,9 +107,9 @@ void app_main(void)
     ESP_LOGI(TAG, "Display LVGL demo");
     lvgl_port_lock(0);
 
-    ui_init();
+    // ui_init();
 
-    // lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0xffffff), LV_STATE_DEFAULT); 
+    lv_obj_set_style_bg_color(lv_scr_act(), lv_color_hex(0xf007cd), LV_STATE_DEFAULT); 
     
     // // Create button
     // lv_obj_t * btn = lv_btn_create(lv_scr_act());     /*Add a button the current screen*/
@@ -102,9 +132,10 @@ lv_disp_t *bsp_display_start_with_config(const lvgl_port_cfg_t *lvgl_port_cfg)
 {
     lv_disp_t *disp;
     assert(lvgl_port_cfg != NULL);
-
     if(lvgl_port_init(lvgl_port_cfg) != ESP_OK) return NULL;
     if((disp = bsp_display_lcd_init()) == NULL) return NULL;    
+    if((disp_indev = bsp_display_indev_init(disp)) == NULL) return NULL;
+    lv_disp_set_rotation(disp, LV_DISP_ROT_180);
     return disp;
 }
 
@@ -191,7 +222,7 @@ esp_err_t bsp_display_new(int max_transfer_sz, esp_lcd_panel_handle_t *ret_panel
     esp_lcd_panel_init(*ret_panel);
     esp_lcd_panel_mirror(*ret_panel, false, true);
     esp_lcd_panel_swap_xy(*ret_panel, true);
-    esp_lcd_panel_invert_color(*ret_panel, true);
+    esp_lcd_panel_invert_color(*ret_panel, false);
     return ret;
 
 err:
@@ -203,4 +234,26 @@ err:
     }
     spi_bus_free(LCD_SPI_NUM);
     return ret;
+}
+
+static lv_indev_t *bsp_display_indev_init(lv_disp_t *disp)
+{
+    const lvgl_port_nav_btns_cfg_t btns = {
+        .disp = disp,
+        .button_prev = &bsp_button_config[BSP_BUTTON_PREV], 
+        .button_enter = &bsp_button_config[BSP_BUTTON_ENTER], 
+        .button_next = &bsp_button_config[BSP_BUTTON_NEXT],
+    };
+    return lvgl_port_add_navigation_buttons(&btns);
+}
+
+uint8_t reverseBitsWithNot(uint8_t value) 
+{
+    return ~value; 
+}
+
+void convertEachElement(uint8_t* dataArray, int dataSize) {
+    for (int i = 0; i < dataSize; i++) {
+        dataArray[i] = reverseBitsWithNot(dataArray[i]);
+    }
 }

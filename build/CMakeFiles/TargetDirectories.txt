@@ -648,6 +648,13 @@
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_touch/CMakeFiles/install.dir
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_touch/CMakeFiles/install/local.dir
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_touch/CMakeFiles/install/strip.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/__idf_espressif__button.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/edit_cache.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/rebuild_cache.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/list_install_components.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/install.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/install/local.dir
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/CMakeFiles/install/strip.dir
 /home/nhat/esp/myGUI/build/esp-idf/main/CMakeFiles/__idf_main.dir
 /home/nhat/esp/myGUI/build/esp-idf/main/CMakeFiles/edit_cache.dir
 /home/nhat/esp/myGUI/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

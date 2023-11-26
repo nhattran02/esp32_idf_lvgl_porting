@@ -63,6 +63,7 @@
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lvgl_port/libespressif__esp_lvgl_port.a
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_ili9341/libespressif__esp_lcd_ili9341.a
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_touch/libespressif__esp_lcd_touch.a
+/home/nhat/esp/myGUI/build/esp-idf/espressif__button/libespressif__button.a
 /home/nhat/esp/myGUI/build/esp-idf/main/libmain.a
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_touch_gt911/libespressif__esp_lcd_touch_gt911.a
 /home/nhat/esp/myGUI/build/esp-idf/espressif__esp_lcd_touch_tt21100/libespressif__esp_lcd_touch_tt21100.a

@@ -996,21 +996,21 @@
     #ifdef CONFIG_LV_FONT_MONTSERRAT_8
         #define LV_FONT_MONTSERRAT_8 CONFIG_LV_FONT_MONTSERRAT_8
     #else
-        #define LV_FONT_MONTSERRAT_8  0
+        #define LV_FONT_MONTSERRAT_8  1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_10
     #ifdef CONFIG_LV_FONT_MONTSERRAT_10
         #define LV_FONT_MONTSERRAT_10 CONFIG_LV_FONT_MONTSERRAT_10
     #else
-        #define LV_FONT_MONTSERRAT_10 0
+        #define LV_FONT_MONTSERRAT_10 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_12
     #ifdef CONFIG_LV_FONT_MONTSERRAT_12
         #define LV_FONT_MONTSERRAT_12 CONFIG_LV_FONT_MONTSERRAT_12
     #else
-        #define LV_FONT_MONTSERRAT_12 0
+        #define LV_FONT_MONTSERRAT_12 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_14
@@ -1028,119 +1028,119 @@
     #ifdef CONFIG_LV_FONT_MONTSERRAT_16
         #define LV_FONT_MONTSERRAT_16 CONFIG_LV_FONT_MONTSERRAT_16
     #else
-        #define LV_FONT_MONTSERRAT_16 0
+        #define LV_FONT_MONTSERRAT_16 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_18
     #ifdef CONFIG_LV_FONT_MONTSERRAT_18
         #define LV_FONT_MONTSERRAT_18 CONFIG_LV_FONT_MONTSERRAT_18
     #else
-        #define LV_FONT_MONTSERRAT_18 0
+        #define LV_FONT_MONTSERRAT_18 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_20
     #ifdef CONFIG_LV_FONT_MONTSERRAT_20
         #define LV_FONT_MONTSERRAT_20 CONFIG_LV_FONT_MONTSERRAT_20
     #else
-        #define LV_FONT_MONTSERRAT_20 0
+        #define LV_FONT_MONTSERRAT_20 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_22
     #ifdef CONFIG_LV_FONT_MONTSERRAT_22
         #define LV_FONT_MONTSERRAT_22 CONFIG_LV_FONT_MONTSERRAT_22
     #else
-        #define LV_FONT_MONTSERRAT_22 0
+        #define LV_FONT_MONTSERRAT_22 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_24
     #ifdef CONFIG_LV_FONT_MONTSERRAT_24
         #define LV_FONT_MONTSERRAT_24 CONFIG_LV_FONT_MONTSERRAT_24
     #else
-        #define LV_FONT_MONTSERRAT_24 0
+        #define LV_FONT_MONTSERRAT_24 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_26
     #ifdef CONFIG_LV_FONT_MONTSERRAT_26
         #define LV_FONT_MONTSERRAT_26 CONFIG_LV_FONT_MONTSERRAT_26
     #else
-        #define LV_FONT_MONTSERRAT_26 0
+        #define LV_FONT_MONTSERRAT_26 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_28
     #ifdef CONFIG_LV_FONT_MONTSERRAT_28
         #define LV_FONT_MONTSERRAT_28 CONFIG_LV_FONT_MONTSERRAT_28
     #else
-        #define LV_FONT_MONTSERRAT_28 0
+        #define LV_FONT_MONTSERRAT_28 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_30
     #ifdef CONFIG_LV_FONT_MONTSERRAT_30
         #define LV_FONT_MONTSERRAT_30 CONFIG_LV_FONT_MONTSERRAT_30
     #else
-        #define LV_FONT_MONTSERRAT_30 0
+        #define LV_FONT_MONTSERRAT_30 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_32
     #ifdef CONFIG_LV_FONT_MONTSERRAT_32
         #define LV_FONT_MONTSERRAT_32 CONFIG_LV_FONT_MONTSERRAT_32
     #else
-        #define LV_FONT_MONTSERRAT_32 0
+        #define LV_FONT_MONTSERRAT_32 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_34
     #ifdef CONFIG_LV_FONT_MONTSERRAT_34
         #define LV_FONT_MONTSERRAT_34 CONFIG_LV_FONT_MONTSERRAT_34
     #else
-        #define LV_FONT_MONTSERRAT_34 0
+        #define LV_FONT_MONTSERRAT_34 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_36
     #ifdef CONFIG_LV_FONT_MONTSERRAT_36
         #define LV_FONT_MONTSERRAT_36 CONFIG_LV_FONT_MONTSERRAT_36
     #else
-        #define LV_FONT_MONTSERRAT_36 0
+        #define LV_FONT_MONTSERRAT_36 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_38
     #ifdef CONFIG_LV_FONT_MONTSERRAT_38
         #define LV_FONT_MONTSERRAT_38 CONFIG_LV_FONT_MONTSERRAT_38
     #else
-        #define LV_FONT_MONTSERRAT_38 0
+        #define LV_FONT_MONTSERRAT_38 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_40
     #ifdef CONFIG_LV_FONT_MONTSERRAT_40
         #define LV_FONT_MONTSERRAT_40 CONFIG_LV_FONT_MONTSERRAT_40
     #else
-        #define LV_FONT_MONTSERRAT_40 0
+        #define LV_FONT_MONTSERRAT_40 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_42
     #ifdef CONFIG_LV_FONT_MONTSERRAT_42
         #define LV_FONT_MONTSERRAT_42 CONFIG_LV_FONT_MONTSERRAT_42
     #else
-        #define LV_FONT_MONTSERRAT_42 0
+        #define LV_FONT_MONTSERRAT_42 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_44
     #ifdef CONFIG_LV_FONT_MONTSERRAT_44
         #define LV_FONT_MONTSERRAT_44 CONFIG_LV_FONT_MONTSERRAT_44
     #else
-        #define LV_FONT_MONTSERRAT_44 0
+        #define LV_FONT_MONTSERRAT_44 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_46
     #ifdef CONFIG_LV_FONT_MONTSERRAT_46
         #define LV_FONT_MONTSERRAT_46 CONFIG_LV_FONT_MONTSERRAT_46
     #else
-        #define LV_FONT_MONTSERRAT_46 0
+        #define LV_FONT_MONTSERRAT_46 1
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_48
     #ifdef CONFIG_LV_FONT_MONTSERRAT_48
         #define LV_FONT_MONTSERRAT_48 CONFIG_LV_FONT_MONTSERRAT_48
     #else
-        #define LV_FONT_MONTSERRAT_48 0
+        #define LV_FONT_MONTSERRAT_48 1
     #endif
 #endif
 

@@ -181,7 +181,7 @@ enum {
 #define LV_COLOR_GET_A(c) LV_CONCAT(LV_COLOR_GET_A, LV_COLOR_DEPTH)(c)
 
 #define _LV_COLOR_ZERO_INITIALIZER LV_CONCAT(_LV_COLOR_ZERO_INITIALIZER, LV_COLOR_DEPTH)
-#define LV_COLOR_MAKE(r8, g8, b8) LV_CONCAT(LV_COLOR_MAKE, LV_COLOR_DEPTH)(~r8, ~g8, ~b8)
+#define LV_COLOR_MAKE(r8, g8, b8) LV_CONCAT(LV_COLOR_MAKE, LV_COLOR_DEPTH)(r8, g8, b8)
 
 /**********************
  *      TYPEDEFS
@@ -616,10 +616,10 @@ static inline lv_color_t lv_color_hex(uint32_t c)
                     b = ((c & 0xFF) >> 3)
                     rgb565 = r | g | b
         That's 3 mask, 3 bitshifts and 2 or operations */
-    r.full = (uint16_t)(  ~(((c & 0xF80000) >> 8) | ((c & 0xFC00) >> 5) | ((c & 0xFF) >> 3)));
+    r.full = (uint16_t)(((c & 0xF80000) >> 8) | ((c & 0xFC00) >> 5) | ((c & 0xFF) >> 3));
 #else
     /* We want: rrrr rrrr GGGg gggg bbbb bbbb => gggb bbbb rrrr rGGG */
-    r.full = (uint16_t)(  ~(((c & 0xF80000) >> 16) | ((c & 0xFC00) >> 13) | ((c & 0x1C00) << 3) | ((c & 0xF8) << 5)));
+    r.full = (uint16_t)(((c & 0xF80000) >> 16) | ((c & 0xFC00) >> 13) | ((c & 0x1C00) << 3) | ((c & 0xF8) << 5));
     // r.full = ((c >> 8) & 0xFF) | (c & 0xFF);
 #endif
     return r;

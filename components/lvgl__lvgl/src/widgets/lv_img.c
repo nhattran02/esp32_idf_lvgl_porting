@@ -133,7 +133,7 @@ void lv_img_set_src(lv_obj_t * obj, const void * src)
             if(old_src) lv_mem_free((void *)old_src);
         }
     }
-
+    
     if(src_type == LV_IMG_SRC_SYMBOL) {
         /*`lv_img_dsc_get_info` couldn't set the width and height of a font so set it here*/
         const lv_font_t * font = lv_obj_get_style_text_font(obj, LV_PART_MAIN);

@@ -11,16 +11,12 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 
 project(XXXX)
 
-include(cmake_utilities)
-#or
 include(gcc)
 ```
 
-The LTO feature is disabled by default. To use it, you should enable the option `CU_GCC_LTO_ENABLE` in menuconfig. Then specify target components or dependencies to be optimized by LTO after `include(cmake_utilities)` or `include(gcc)` as follows:
+The LTO feature is disabled by default. To use it, you should enable the option `CU_GCC_LTO_ENABLE` in menuconfig. Then specify target components or dependencies to be optimized by LTO after `include(gcc)` as follows:
 
 ```cmake
-include(cmake_utilities)
-#or
 include(gcc)
 
 cu_gcc_lto_set(COMPONENTS component_a component_b
@@ -70,9 +66,6 @@ The example applies LTO in `light` of `esp-matter` because its application code 
 
 project(light)
 
-# Add
-include(cmake_utilities)
-#or
 include(gcc)
 
 # Add
@@ -110,6 +103,6 @@ cu_gcc_string_1byte_align(COMPONENTS ${app_lto_components} ${idf_lto_components}
 Build the project and the firmware size is:
 
 Option | Firmware size |
-|:-:|:-:|:-:|
+|:-:|:-:|
  -Os + LTO | 1,020,640 |
  -Os + LTO + string 1-byte align | 1,018,340 |

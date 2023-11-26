@@ -1,10 +1,10 @@
 dependencies:
   espressif/cmake_utilities:
-    component_hash: c3f351bed6fdb3d91bee6076740cb13d22e2c7bfcdd78969a65b46943885bbd4
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
     source:
       service_url: https://api.components.espressif.com/
       type: service
-    version: 0.5.2
+    version: 0.5.3
   espressif__esp_lcd_touch:
     component_hash: null
     source:
@@ -22,6 +22,6 @@ dependencies:
       path: /home/nhat/esp/myGUI/components/lvgl__lvgl
       type: local
     version: 8.3.10
-manifest_hash: aeeeeba75a7c0ee64529d5d197e9464b06c89a62317432e8c7752ce02f29984f
+manifest_hash: af6a7b0a3a0ced7c02527a1d17d1a3d75f2e14cc43e209845d8367aa423ea491
 target: esp32
 version: 1.0.0
