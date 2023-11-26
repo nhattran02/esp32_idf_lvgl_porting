@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"semphr.h": "c",
+			"time.h": "c",
+			"ui_boot_animate.h": "c",
+			"ui_main.h": "c"
+		}
+	}
+}

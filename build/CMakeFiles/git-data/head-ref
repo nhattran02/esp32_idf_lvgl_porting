@@ -1,1 +1,4 @@
-000360ee3ff63aaa07d5c5cd3a684b2ec242745d
+0000000000000000000000000000000000000000 4bea8f45b5129950ccf5be6f848c9a0fa2dae252 nhatVNU <tranminhnhat20022002@gmail.com> 1700806176 +0700	clone: from git@github.com:nhatVNU/esp32_idf_lvgl_porting.git
+4bea8f45b5129950ccf5be6f848c9a0fa2dae252 a1e2d0dd75b73de79fcf68c5aa835100f6d55437 nhatVNU <tranminhnhat20022002@gmail.com> 1700806225 +0700	commit: first
+a1e2d0dd75b73de79fcf68c5aa835100f6d55437 000360ee3ff63aaa07d5c5cd3a684b2ec242745d nhatVNU <tranminhnhat20022002@gmail.com> 1700808568 +0700	commit: Update correcting the color code for lv_color_make()
+000360ee3ff63aaa07d5c5cd3a684b2ec242745d c4d9ec87fc9363554df451753972630b390b2a4b nhatVNU <tranminhnhat20022002@gmail.com> 1700973858 +0700	commit: Fix wrong color

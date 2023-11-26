@@ -1,0 +1,72 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/nhat/esp/myGUI/build/bootloader/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/gui/ui_main.c.obj
+/home/nhat/esp/myGUI/main/gui/ui_main.c:46:18: warning: 'g_led_item' defined but not used [-Wunused-variable]
+   46 | static lv_obj_t *g_led_item[6];
+      |                  ^~~~~~~~~~
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable main.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.dev3
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/nhat/esp/myGUI/build/main.bin
+[9/10] cd /home/nhat/esp/myGUI/build/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/nhat/esp/myGUI/build/partition_table/partition-table.bin /home/nhat/esp/myGUI/build/main.bin
+main.bin binary size 0x843e0 bytes. Smallest app partition is 0x100000 bytes. 0x7bc20 bytes (48%) free.
+[9/10] cd /home/nhat/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/nhat/esp/esp-idf -D "SERIAL_TOOL=/home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python;;/home/nhat/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/nhat/esp/myGUI/build -P /home/nhat/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 main.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev3
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:3a:f2:71:9c:74
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00094fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26640 bytes to 16689...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000768e... (100 %)
+Wrote 26640 bytes (16689 compressed) at 0x00001000 in 0.9 seconds (effective 247.5 kbit/s)...
+Hash of data verified.
+Compressed 541664 bytes to 300788...
+Writing at 0x00010000... (5 %)
+Writing at 0x00022218... (10 %)
+Writing at 0x0002962e... (15 %)
+Writing at 0x00032fdd... (21 %)
+Writing at 0x0003f0a1... (26 %)
+Writing at 0x0004483e... (31 %)
+Writing at 0x0004a094... (36 %)
+Writing at 0x0004fe42... (42 %)
+Writing at 0x00055630... (47 %)
+Writing at 0x0005b3c7... (52 %)
+Writing at 0x00060d5b... (57 %)
+Writing at 0x00066b5d... (63 %)
+Writing at 0x0006c14d... (68 %)
+Writing at 0x000721a9... (73 %)
+Writing at 0x00077b81... (78 %)
+Writing at 0x0007dc34... (84 %)
+Writing at 0x00086668... (89 %)
+Writing at 0x0008c3a1... (94 %)
+Writing at 0x00092240... (100 %)
+Wrote 541664 bytes (300788 compressed) at 0x00010000 in 7.2 seconds (effective 605.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 350.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

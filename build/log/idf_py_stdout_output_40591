@@ -1,0 +1,18 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/nhat/esp/myGUI/build/bootloader/esp-idf/esptool_py && /home/nhat/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/nhat/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/nhat/esp/myGUI/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/gui/ui_main.c.obj
+/home/nhat/esp/myGUI/main/gui/ui_main.c:23:18: warning: 'g_led_item' defined but not used [-Wunused-variable]
+   23 | static lv_obj_t *g_led_item[6];
+      |                  ^~~~~~~~~~
+/home/nhat/esp/myGUI/main/gui/ui_main.c:22:30: warning: 'g_img_item' defined but not used [-Wunused-variable]
+   22 | static lv_obj_t *g_img_btn, *g_img_item = NULL;
+      |                              ^~~~~~~~~~
+/home/nhat/esp/myGUI/main/gui/ui_main.c:22:18: warning: 'g_img_btn' defined but not used [-Wunused-variable]
+   22 | static lv_obj_t *g_img_btn, *g_img_item = NULL;
+      |                  ^~~~~~~~~
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable main.elf

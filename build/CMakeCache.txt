@@ -594,6 +594,8 @@ _Python3_EXECUTABLE:INTERNAL=/home/nhat/.espressif/python_env/idf5.1_py3.8_env/b
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;10;32;;;/usr/lib/python3.8;/usr/lib/python3.8;/home/nhat/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages;/home/nhat/.espressif/python_env/idf5.1_py3.8_env/lib/python3.8/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=fbd2fe1e40121014d3d2ab0d0e25fe05
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
